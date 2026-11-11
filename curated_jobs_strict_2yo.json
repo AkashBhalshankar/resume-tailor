@@ -1,0 +1,368 @@
+[
+  {
+    "id": "job-f1b9440ba11db0b8",
+    "title": "Hiring Generative AI Engineer",
+    "company": "Digitals",
+    "location": "Hyderabad",
+    "workplace_type": "Hybrid",
+    "ats": "Workable",
+    "url": "https://apply.workable.com/digitals/j/F81B5F03A4",
+    "experience_range": "0-3 Years",
+    "match_score": 94,
+    "matched_skills": [
+      "Langgraph",
+      "Fastapi",
+      "Python",
+      "Langchain",
+      "Rag",
+      "Vector_Db"
+    ],
+    "tailoring_blueprint": [
+      "Highlight multi-agent orchestration with LangGraph and reflection loops.",
+      "Emphasize production FastAPI endpoints and WebSocket integration.",
+      "Highlight Python backend development and API design experience."
+    ],
+    "published_at": "2026-10-14",
+    "last_verified": "2026-11-10T16:47:11.549456+00:00",
+    "fingerprint": "6d3d414df3b6dc3c4f39d6a488ff579083176f8f4e0d9ddd9823cb8c0fac5e66"
+  },
+  {
+    "id": "job-eb325a0dce386285",
+    "title": "AI & ML Engineer",
+    "company": "Careers",
+    "location": "India",
+    "workplace_type": "On-site",
+    "ats": "Keka",
+    "url": "https://factentry.keka.com/careers/jobdetails/31375",
+    "experience_range": "0-2 Years",
+    "match_score": 94,
+    "matched_skills": [
+      "Fastapi",
+      "Python",
+      "Langchain",
+      "Rag",
+      "Vector_Db",
+      "Azure"
+    ],
+    "tailoring_blueprint": [
+      "Emphasize production FastAPI endpoints and WebSocket integration.",
+      "Highlight Python backend development and API design experience.",
+      "Highlight LangChain-based LLM application development."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-10T16:47:31.969161+00:00",
+    "fingerprint": "99cf725632579ad92e128f717289fc6bb2e272788e97e7822d4e72c8752d8aff"
+  },
+  {
+    "id": "job-ac6e4f575631e4e3",
+    "title": "Senior AI Engineer",
+    "company": "Careers",
+    "location": "Hyderabad",
+    "workplace_type": "Hybrid",
+    "ats": "Keka",
+    "url": "https://clovertex.keka.com/careers/jobdetails/87961",
+    "experience_range": "0-2 Years",
+    "match_score": 94,
+    "matched_skills": [
+      "Langgraph",
+      "Fastapi",
+      "Python",
+      "Rag",
+      "React",
+      "Agentic"
+    ],
+    "tailoring_blueprint": [
+      "Highlight multi-agent orchestration with LangGraph and reflection loops.",
+      "Emphasize production FastAPI endpoints and WebSocket integration.",
+      "Highlight Python backend development and API design experience."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-10T16:47:31.108744+00:00",
+    "fingerprint": "79a411d320c15ea639b8f28d843c670eb5198b3974f456addd45956baa4fd591"
+  },
+  {
+    "id": "job-d02075e0ef158be0",
+    "title": "Data & AI Engineer",
+    "company": "Careers",
+    "location": "Bengaluru",
+    "workplace_type": "On-site",
+    "ats": "Keka",
+    "url": "https://comprinno.keka.com/careers/jobdetails/138855",
+    "experience_range": "5-2 Years",
+    "match_score": 90,
+    "matched_skills": [
+      "Langgraph",
+      "Python",
+      "Langchain",
+      "Rag",
+      "Agentic"
+    ],
+    "tailoring_blueprint": [
+      "Highlight multi-agent orchestration with LangGraph and reflection loops.",
+      "Highlight Python backend development and API design experience.",
+      "Highlight LangChain-based LLM application development."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-10T16:47:33.052475+00:00",
+    "fingerprint": "a53c97d663b0ed05d0bbb532cda2d70ed898037648d9ca043ce963fdfccdeeec"
+  },
+  {
+    "id": "job-24c3fc07c379fdef",
+    "title": "AI Engineer",
+    "company": "Luxasia",
+    "location": "India",
+    "workplace_type": "Hybrid",
+    "ats": "Workable",
+    "url": "https://apply.workable.com/luxasia/j/CFF16F4372",
+    "experience_range": "2-5 Years",
+    "match_score": 90,
+    "matched_skills": [
+      "Python",
+      "Langchain",
+      "Rag",
+      "Azure",
+      "Agentic"
+    ],
+    "tailoring_blueprint": [
+      "Highlight Python backend development and API design experience.",
+      "Highlight LangChain-based LLM application development.",
+      "Emphasize RAG pipeline implementation and retrieval-augmented generation."
+    ],
+    "published_at": "2026-08-25",
+    "last_verified": "2026-11-06T16:10:07.694587+00:00",
+    "fingerprint": "60bf2e995ff05f6cffea28d9c38744f64a827e40d02b26ee58bd4680041ddfff"
+  },
+  {
+    "id": "job-a92461dcbaa22fc3",
+    "title": "Junior AI Engineer",
+    "company": "Trackmind",
+    "location": "Hyderabad",
+    "workplace_type": "On-site",
+    "ats": "Lever",
+    "url": "https://jobs.lever.co/trackmind/ad66c0ec-1ae9-47cb-9d5d-83ae1cb6d200",
+    "experience_range": "2-2 Years",
+    "match_score": 86,
+    "matched_skills": [
+      "Python",
+      "Langchain",
+      "Rag",
+      "React"
+    ],
+    "tailoring_blueprint": [
+      "Highlight Python backend development and API design experience.",
+      "Highlight LangChain-based LLM application development.",
+      "Emphasize RAG pipeline implementation and retrieval-augmented generation."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-10T16:47:22.012008+00:00",
+    "fingerprint": "bab969f6239d17b9de884e7657580da7e23740fbe3bfb847f495d89f56a729d6"
+  },
+  {
+    "id": "job-0c1479abfce3c0bf",
+    "title": "AI Engineer",
+    "company": "Onit",
+    "location": "Pune",
+    "workplace_type": "On-site",
+    "ats": "Lever",
+    "url": "https://jobs.lever.co/onit/983d3c5d-55d7-4802-9865-80bf58c68bd4",
+    "experience_range": "0-2 Years",
+    "match_score": 86,
+    "matched_skills": [
+      "Python",
+      "Rag",
+      "Azure",
+      "Agentic"
+    ],
+    "tailoring_blueprint": [
+      "Highlight Python backend development and API design experience.",
+      "Emphasize RAG pipeline implementation and retrieval-augmented generation.",
+      "Emphasize Azure OpenAI and cloud AI service integration."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-10T16:47:22.849876+00:00",
+    "fingerprint": "95d0d7eb239ee013ba53c1cef16aed042f11402d931d5dbd175493134d66790d"
+  },
+  {
+    "id": "job-d87b9d81a502d2e0",
+    "title": "AI Engineer \u2013 AI Agents (Healthcare)",
+    "company": "100Ms",
+    "location": "Bengaluru",
+    "workplace_type": "On-site",
+    "ats": "Lever",
+    "url": "https://jobs.lever.co/100ms/4c9f19c7-4432-4394-ba93-167319c68adc",
+    "experience_range": "2-5 Years",
+    "match_score": 82,
+    "matched_skills": [
+      "Python",
+      "Rag",
+      "Agentic"
+    ],
+    "tailoring_blueprint": [
+      "Highlight Python backend development and API design experience.",
+      "Emphasize RAG pipeline implementation and retrieval-augmented generation.",
+      "Highlight agentic workflow design and multi-agent orchestration."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-10T16:47:19.979633+00:00",
+    "fingerprint": "50821c07a80880137ecf9bb82c9ce9a31fdf74d0e2ab74de77d94a156d53e663"
+  },
+  {
+    "id": "job-502d3646722ce2c8",
+    "title": "ML/AI Engineer",
+    "company": "Lingarogroup",
+    "location": "India",
+    "workplace_type": "On-site",
+    "ats": "Lever",
+    "url": "https://jobs.lever.co/lingarogroup/5b9bd5a9-5953-43cf-a7e5-fe9161ac0f21",
+    "experience_range": "5-7 Years",
+    "match_score": 78,
+    "matched_skills": [
+      "Rag",
+      "Azure"
+    ],
+    "tailoring_blueprint": [
+      "Emphasize RAG pipeline implementation and retrieval-augmented generation.",
+      "Emphasize Azure OpenAI and cloud AI service integration.",
+      "Demonstrate end-to-end AI system ownership and ATS-friendly keyword alignment."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-06T13:16:18.721598+00:00",
+    "fingerprint": "b4831db211171c73076d83e7926017cca19ca893d99d7c59df39fb06f6ef14fd"
+  },
+  {
+    "id": "job-321dd8eda59138cf",
+    "title": "Senior Software Engineer",
+    "company": "Careers",
+    "location": "Hyderabad",
+    "workplace_type": "On-site",
+    "ats": "Keka",
+    "url": "https://techdome.keka.com/careers/jobdetails/168673",
+    "experience_range": "4-6 Years",
+    "match_score": 78,
+    "matched_skills": [
+      "Azure",
+      "React"
+    ],
+    "tailoring_blueprint": [
+      "Emphasize Azure OpenAI and cloud AI service integration.",
+      "Highlight React frontend development and component architecture.",
+      "Demonstrate end-to-end AI system ownership and ATS-friendly keyword alignment."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-06T16:10:02.450722+00:00",
+    "fingerprint": "264adcf23a7fa478a3d00201b94b316940e2156c650742b41598777fdb2f1cb9"
+  },
+  {
+    "id": "job-21ef833053130388",
+    "title": "Machine Learning Engineer | SDE",
+    "company": "Careers",
+    "location": "Mumbai",
+    "workplace_type": "On-site",
+    "ats": "Keka",
+    "url": "https://fynd.keka.com/careers/jobdetails/145984?source=jobfound.org",
+    "experience_range": "2-4 Years",
+    "match_score": 78,
+    "matched_skills": [
+      "Python",
+      "Rag"
+    ],
+    "tailoring_blueprint": [
+      "Highlight Python backend development and API design experience.",
+      "Emphasize RAG pipeline implementation and retrieval-augmented generation.",
+      "Demonstrate end-to-end AI system ownership and ATS-friendly keyword alignment."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-10T16:47:16.532673+00:00",
+    "fingerprint": "e70bc5ca9114ac385560d4b180f8c8fd642427080146bbe53f46aa4508f5e78f"
+  },
+  {
+    "id": "job-d0c680f6d084a35c",
+    "title": "Lead Software Engineer",
+    "company": "Careers",
+    "location": "Hyderabad",
+    "workplace_type": "On-site",
+    "ats": "Keka",
+    "url": "https://techdome.keka.com/careers/jobdetails/169449",
+    "experience_range": "5-7 Years",
+    "match_score": 78,
+    "matched_skills": [
+      "Azure",
+      "React"
+    ],
+    "tailoring_blueprint": [
+      "Emphasize Azure OpenAI and cloud AI service integration.",
+      "Highlight React frontend development and component architecture.",
+      "Demonstrate end-to-end AI system ownership and ATS-friendly keyword alignment."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-10T16:47:32.221279+00:00",
+    "fingerprint": "3a0a9bde6074104603ab6639d92814cadfda282ebcfe3e4a0f2657be9ba88176"
+  },
+  {
+    "id": "job-0bcdc72112eb5fd5",
+    "title": "Senior Software Engineer",
+    "company": "Careers",
+    "location": "Hyderabad",
+    "workplace_type": "On-site",
+    "ats": "Keka",
+    "url": "https://techdome.keka.com/careers/jobdetails/169402",
+    "experience_range": "7-9 Years",
+    "match_score": 78,
+    "matched_skills": [
+      "Azure",
+      "React"
+    ],
+    "tailoring_blueprint": [
+      "Emphasize Azure OpenAI and cloud AI service integration.",
+      "Highlight React frontend development and component architecture.",
+      "Demonstrate end-to-end AI system ownership and ATS-friendly keyword alignment."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-10T16:47:32.477419+00:00",
+    "fingerprint": "5bc0caabd0d3e2d62c39bd65f0c365f94694deffc411afc23e2ec2edd734c02b"
+  },
+  {
+    "id": "job-97334b16e43ace83",
+    "title": "AI Engineer",
+    "company": "Careers",
+    "location": "Bengaluru",
+    "workplace_type": "On-site",
+    "ats": "Keka",
+    "url": "https://skylarkdrones.keka.com/careers/jobdetails/117616",
+    "experience_range": "0-2 Years",
+    "match_score": 74,
+    "matched_skills": [
+      "Python"
+    ],
+    "tailoring_blueprint": [
+      "Highlight Python backend development and API design experience.",
+      "Demonstrate end-to-end AI system ownership and ATS-friendly keyword alignment.",
+      "Demonstrate end-to-end AI system ownership and ATS-friendly keyword alignment."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-04T16:18:12.870822+00:00",
+    "fingerprint": "4f805ae364e25a1b527da38804f4314026179ad798a34846eea6ad347848139f"
+  },
+  {
+    "id": "job-6721d23c48f1fa46",
+    "title": "SDE",
+    "company": "Careers",
+    "location": "Mumbai",
+    "workplace_type": "On-site",
+    "ats": "Keka",
+    "url": "https://fynd.keka.com/careers/applyjob/145996",
+    "experience_range": "2-4 Years",
+    "match_score": 74,
+    "matched_skills": [
+      "Agentic"
+    ],
+    "tailoring_blueprint": [
+      "Highlight agentic workflow design and multi-agent orchestration.",
+      "Demonstrate end-to-end AI system ownership and ATS-friendly keyword alignment.",
+      "Demonstrate end-to-end AI system ownership and ATS-friendly keyword alignment."
+    ],
+    "published_at": null,
+    "last_verified": "2026-11-10T16:47:18.119762+00:00",
+    "fingerprint": "aaa2300e253ac10087563a11f5e3187ca1bd04df772c1b0b589544bf20abcfc7"
+  }
+]

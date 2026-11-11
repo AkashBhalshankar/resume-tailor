@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-[#FAFAF7] text-[#1F2937] font-sans antialiased; }
+  :focus-visible { @apply outline-none ring-2 ring-indigo-600/60 ring-offset-2 ring-offset-[#FAFAF7]; }
+  ::selection { background: rgba(79, 70, 229, 0.2); }
+}
+
+@layer components {
+  .card { @apply bg-white rounded-2xl border border-gray-200 shadow-sm; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-200 active:scale-[.97] disabled:opacity-40 disabled:pointer-events-none select-none; }
+  .btn-primary { @apply btn bg-indigo-600 text-white shadow-lg shadow-indigo-600/20 hover:bg-indigo-700 hover:-translate-y-0.5; }
+  .btn-outline { @apply btn border border-gray-300 bg-white hover:border-indigo-600 hover:text-indigo-600; }
+  .btn-ghost { @apply btn text-gray-700 hover:bg-gray-100 hover:text-gray-900; }
+  .input { @apply w-full rounded-xl border border-gray-300 bg-white px-3.5 py-2.5 text-sm outline-none transition placeholder:text-gray-400 focus:border-indigo-600 focus:ring-4 focus:ring-indigo-600/10; }
+  .shimmer { background: linear-gradient(90deg, #0000000a 25%, #00000014 37%, #0000000a 63%); background-size: 400% 100%; animation: shimmer 1.4s ease infinite; }
+}
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes pop { 0% { transform: scale(.85); } 60% { transform: scale(1.08); } 100% { transform: scale(1); } }
+@keyframes shimmer { 0% { background-position: 100% 0; } 100% { background-position: 0 0; } }
+@keyframes slideIn { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: none; } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
+.animate-fade-up { animation: fadeUp .4s cubic-bezier(.2,.7,.2,1) both; }
+.animate-pop { animation: pop .35s ease-out both; }
+.animate-slide-in { animation: slideIn .3s cubic-bezier(.2,.7,.2,1) both; }
+.animate-fade { animation: fade .2s ease both; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
