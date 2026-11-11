@@ -10,6 +10,7 @@ import EditResumeScreen from './screens/EditResumeScreen';
 import DownloadScreen from './screens/DownloadScreen';
 import OutreachScreen from './screens/OutreachScreen';
 import HistoryScreen from './screens/HistoryScreen';
+import { getCuratedJobs, getRemovedJobs, deleteJob } from './api';
 
 const SCREENS = {
   upload: UploadScreen,
@@ -39,24 +40,26 @@ function ScoutApp() {
   const [jobs, setJobs] = useState([]);
   const [removed, setRemoved] = useState(new Set());
 
-  const fetchJobs = () => {
-    Promise.all([
-      fetch('/api/jobs/curated').then((r) => r.json()),
-      fetch('/api/jobs/removed').then((r) => r.json()),
-    ])
-      .then(([jobList, removedList]) => {
-        if (Array.isArray(jobList)) {
-          const removedSet = new Set(removedList || []);
-          setRemoved(removedSet);
-          setJobs(jobList.filter((j) => !removedSet.has(j.id)));
-        }
-      })
-      .catch((err) => console.log('Notice fetching jobs:', err));
+  const fetchJobs = async () => {
+    try {
+      const [jobList, removedList] = await Promise.all([
+        getCuratedJobs(),
+        getRemovedJobs(),
+      ]);
+
+      if (Array.isArray(jobList)) {
+        const removedSet = new Set(removedList || []);
+        setRemoved(removedSet);
+        setJobs(jobList.filter((j) => !removedSet.has(j.id)));
+      }
+    } catch (err) {
+      console.log('Notice fetching jobs:', err);
+    }
   };
 
   const handleRemove = async (jobId) => {
     try {
-      await fetch(`/api/jobs/${jobId}`, { method: 'DELETE' });
+      await deleteJob(jobId);
       setRemoved((prev) => {
         const next = new Set(prev);
         next.add(jobId);

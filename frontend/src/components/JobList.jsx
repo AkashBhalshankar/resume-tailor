@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ExternalLink, ShieldCheck, Building2, MapPin, RefreshCw, XCircle } from 'lucide-react';
+import { triggerSearch, getScoutStatus } from '../api';
 
 export default function JobList({ jobs, onRefresh, onRemove }) {
   const [isSearching, setIsSearching] = useState(false);
@@ -9,14 +10,11 @@ export default function JobList({ jobs, onRefresh, onRemove }) {
     setIsSearching(true);
     setSearchMessage('Starting the ATS scout...');
     try {
-      const response = await fetch('/api/jobs/trigger-search', { method: 'POST' });
-      if (!response.ok) throw new Error(`Scout request failed (${response.status})`);
+      await triggerSearch();
 
       const interval = setInterval(async () => {
         try {
-          const statusResponse = await fetch('/api/jobs/scout-status');
-          if (!statusResponse.ok) throw new Error(`Status request failed (${statusResponse.status})`);
-          const status = await statusResponse.json();
+          const status = await getScoutStatus();
           setSearchMessage(`${status.message} Discovered: ${status.discovered}; verified: ${status.verified}.`);
           if (status.status !== 'running') {
             clearInterval(interval);

@@ -1,7 +1,9 @@
+const API_URL = import.meta.env.VITE_API_URL || '';
+
 async function request(path, options) {
   let res;
   try {
-    res = await fetch(`/api${path}`, options);
+    res = await fetch(`${API_URL}/api${path}`, options);
   } catch {
     throw new Error('Cannot reach the server. Make sure the backend is running on port 8000.');
   }
@@ -15,6 +17,26 @@ async function request(path, options) {
 }
 
 const json = (body) => ({ method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+
+export async function getCuratedJobs() {
+  return (await request('/jobs/curated')).json();
+}
+
+export async function getRemovedJobs() {
+  return (await request('/jobs/removed')).json();
+}
+
+export async function deleteJob(jobId) {
+  return await request(`/jobs/${jobId}`, { method: 'DELETE' });
+}
+
+export async function triggerSearch() {
+  return await request('/jobs/trigger-search', { method: 'POST' });
+}
+
+export async function getScoutStatus() {
+  return (await request('/jobs/scout-status')).json();
+}
 
 export async function parseResume(file) {
   const form = new FormData();
