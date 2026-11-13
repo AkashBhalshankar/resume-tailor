@@ -1,4 +1,5 @@
 const API_URL = import.meta.env.VITE_API_URL || '';
+console.log('DEBUG: VITE_API_URL is:', API_URL);
 
 async function request(path, options) {
   let res;
